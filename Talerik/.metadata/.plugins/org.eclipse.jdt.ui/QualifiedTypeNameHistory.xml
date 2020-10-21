@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="SubClass"/>
+<fullyQualifiedTypeName name="elements.Ice"/>
+<fullyQualifiedTypeName name="elements.Electric"/>
+<fullyQualifiedTypeName name="elements.Ground"/>
+<fullyQualifiedTypeName name="elements.Fire"/>
+<fullyQualifiedTypeName name="elements.Grass"/>
+<fullyQualifiedTypeName name="elements.Water"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="pokemons.Abra"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="Logic.PokemonStats"/>
+<fullyQualifiedTypeName name="pac.Class"/>
+<fullyQualifiedTypeName name="javax.swing.Renderer"/>
+<fullyQualifiedTypeName name="rendererPokemons.Renderer"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+</qualifiedTypeNameHistroy>
