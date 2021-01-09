@@ -1,0 +1,7 @@
+416 267 17 vertical
+95 14 18 static
+271 396 19 diagonal
+480 193 20 horizontal
+230 550 21 diagonal
+358 23 22 static
+153 41 23 vertical

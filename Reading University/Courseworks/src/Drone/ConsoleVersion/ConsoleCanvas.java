@@ -3,7 +3,6 @@ package Drone.ConsoleVersion;
 import java.util.List;
 
 public class ConsoleCanvas {
-	
 	private int[][] arena;
 	private int row;
 	private int col;
@@ -36,16 +35,25 @@ public class ConsoleCanvas {
 		
 	}
 	
+	public void changeCanvas(int newX, int newY) {
+		row = newX + 2;
+		col = newY + 2;
+		arena = new int [row][col];
+		initArena();
+	}
+	
 	public void deleteSpace(int x, int y) {
 		arena[x][y] = emptySpace;
 	}
 	
 	public boolean theSpaceIsClear(int x, int y) {
 		
+		//Check if the drone is in the arena
 		if(x < 1 || x > row - 2 || y < 1 || y > col - 2) {
 			return false;
 		}
 		
+		//Check if the space is free
 		if(arena[x][y] != emptySpace) {
 			return false;
 		}
